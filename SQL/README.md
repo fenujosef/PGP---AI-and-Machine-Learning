@@ -1,22 +1,37 @@
-# Customer, Revenue, and Shipping Analytics using SQL
+# New-Wheels Quarterly Business Report – SQL & Data Analytics
 
-### Description:
-Designed and implemented complex SQL queries to analyze customer behavior, revenue trends, and shipping performance for a retail/automotive business dataset. The project focused on answering key business questions related to customer distribution, feedback analysis, vehicle preferences, revenue growth, and operational efficiency.
+## Project Overview:
+This project focuses on analyzing business performance for New-Wheels, a vehicle resale company, by answering critical business questions and creating a Quarterly Business Report (QBR). The analysis was conducted using MySQL and visualized using Python (Matplotlib/Seaborn) and Excel, based on a relational database that included customer, vehicle, order, and shipping details.
 
-The solution leveraged CTEs, window functions (RANK, LAG), aggregate functions, and joins to generate actionable insights, including:
+## Problem Statement:
 
-Customer Analytics: Distribution across states, customer satisfaction trends, churn indicators, and preferred vehicle makers.
+New-Wheels has experienced a steady decline in sales and customer acquisition due to poor after-sales feedback. The leadership team requires data-driven insights into customer behavior, revenue trends, and shipping performance to make strategic decisions and improve overall business health.
 
-Revenue & Orders: Quarterly order trends, net revenue analysis, and quarter-over-quarter revenue growth using LAG for time-series comparisons.
+## Solution Approach:
 
-Shipping Insights: Average discounts by credit card type and quarterly average shipping times.
+✔ Database Setup: Imported the provided SQL dump file into MySQL and explored the schema (ER diagram included in the repo).
+✔ SQL Analysis: Designed and implemented optimized SQL queries to answer key business questions related to:
 
-### Key Contributions:
+Customer Analytics: Geographic distribution, churn indicators, and satisfaction trends.
 
-Wrote optimized SQL queries using joins, subqueries, and window functions to derive business insights.
+Revenue & Orders: Quarterly revenue, QoQ growth analysis, and order volume trends using window functions (LAG, RANK).
 
-Built KPIs such as QoQ revenue growth, customer feedback percentages, and order trends.
+Shipping Performance: Average delivery time and discount analysis by payment type.
+✔ KPIs & Reports: Generated KPIs such as revenue growth, customer retention metrics, and average shipping time, and compiled results into a Quarterly Business Report.
+✔ Visualizations: Created dashboards and charts in Python and Excel to present insights clearly to stakeholders.
 
-Applied classical BI-style analytics in SQL for decision-making support.
+## Tech Stack:
 
-Delivered structured reports that provided insights into customer satisfaction, product demand, and logistics performance.
+Database: MySQL
+
+SQL Features Used: Joins, CTEs, Window Functions (RANK, LAG), Aggregate Functions
+
+Visualization: Python (Matplotlib/Seaborn) & Excel
+
+Reporting: Business KPIs, Quarterly Trends
+
+## Key Deliverables:
+
+✅ SQL scripts answering all business questions
+✅ Visualizations and dashboards (Python & Excel)
+✅ Quarterly Business Report (QBR) in PDF format
